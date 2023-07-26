@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+    height: 250px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+button{
+    padding: 20px;
+    width: 120px;
+    border: 3px solid black;
+    border-radius: 20px;
+    font-size: 1rem;
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover{
+    background: black; 
+    color: white;
+}
+
+#result{
+    margin: 0;
+    font-weight: 600;
+    font-size: 7rem;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+}
+
+small{
+    margin-top: 20px;
+}
